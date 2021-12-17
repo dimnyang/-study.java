@@ -1,0 +1,13 @@
+package game.Inheritance;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		 Commoner c1 = new Commoner("최지윤"); // private라서 c1점으로 표기하지 않음
+		 
+		 
+		 c1.getInfo();
+
+	}
+
+}

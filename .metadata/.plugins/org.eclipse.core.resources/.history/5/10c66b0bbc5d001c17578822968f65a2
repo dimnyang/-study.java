@@ -1,0 +1,9 @@
+package zzzzz;
+
+public class Main {
+   
+	
+	Calculator c1 = new Calculator();
+	
+	c1.plus(5, 6);
+}

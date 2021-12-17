@@ -1,0 +1,12 @@
+
+public class B_BreakQ01_120p {
+public static void main(String[] args) {
+	
+	 // 3-2 문제
+	int su01 = 5;
+	int su02 = 4;
+
+	int res = su01 > su02 ? su01 + su02 : su02;
+	System.out.println("res=" + res);
+}
+}

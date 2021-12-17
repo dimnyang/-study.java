@@ -1,0 +1,12 @@
+package game.Inheritance;
+
+public class Main02 {
+	
+	private static void main(String[] args) {
+		Magicion m1 = new Magicion("법사임");
+        m1.getInfo();
+		
+		
+	}
+
+}

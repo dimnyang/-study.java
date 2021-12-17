@@ -1,0 +1,25 @@
+package zzzz;
+
+import inheritance.Salaryman;
+
+public class Main02 {
+
+	public static void main(String[] args) {
+		Salaryman s1 = new Salaryman();
+		s1.name = "최지윤";
+		s1.age = 20;
+		s1.salary = 900000000;
+		
+		
+		Student s2 = new Student();
+		s2.name = "고정욱";
+		s2.age = 23;
+		s2.stuNum = 4;
+		
+		s1.getSalaryInfo();
+		s2.getStudentInfo();
+		
+
+	}
+
+}

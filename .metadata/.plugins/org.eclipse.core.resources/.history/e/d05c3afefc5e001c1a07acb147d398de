@@ -1,0 +1,17 @@
+package gaim.polymorphism;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		Commoner c1 = new Commoner("최게임" , 10 , 20, 2);
+		Monster m1 = new Orc();
+		
+		c1.hunt(m1);
+		m1.doBattle(2);
+		
+		
+		
+
+	}
+
+}

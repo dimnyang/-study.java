@@ -1,0 +1,12 @@
+package cat;
+
+public class cat {
+
+
+    public String name;
+    public int age;
+    public String color;
+
+	}
+
+

@@ -1,0 +1,20 @@
+package gaim.polymorphism;
+
+public class Main02 {
+
+	public static void main(String[] args) {
+		
+		Commoner c1 = new Commoner("최지");
+		Monster m1 = new Troll();
+		Monster m2 = new Hulk();
+        Monster m3 = new Devil();
+        
+        c1.hunt(m1);
+        c1.hunt(m2);
+        c1.hunt(m3);
+        
+        
+
+	}
+
+}

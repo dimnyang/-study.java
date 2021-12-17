@@ -1,0 +1,27 @@
+
+public class D_Method05_204p {
+
+	//int c, int num을 받아서
+	// system.out.println( c + num);만 실행하고 종료되는
+    // plus2 메서드를 정의해주신다음
+	// main내부에서 c에는 10, num에는 20을 전달해 실행하도록
+	// 코드를 작성해보세요.,
+	
+	
+	public static void plus2 (int c, int num) {
+		System.out.println(c + num);
+	}
+	 
+	public static void main(String[] args) {
+		plus2(10,20);
+		// 중괄호 여닫는 부분을 "지역"이라고 합니다.
+		// 중괄호가 닫히면 해당 "지역"과 "지역" 내 자료들은 함께 소멸됩니다.
+		// System.out.println(c);
+		// System.out.println(num);
+		// 출력안됨
+		// plus2 소속인데, 외부지역에서 출력 요청하면 출력 안됨
+		
+
+	}
+
+}

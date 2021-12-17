@@ -1,0 +1,21 @@
+package zzzzz;
+
+public class Person {
+	
+	private String name;
+	private int age;
+	private int money;
+	private String major;
+
+	
+	public Person(String name, int age, int money, String major) {
+		this.name = name;
+		this.age = age;
+		this.money = money;
+		this.major =major;
+	}
+	
+	public void getInfo() {
+		System.out.println("이름은 : " + name + ", 나이는 : " + age + ", 소지금액은 " + money + ", 전공은 " + major);
+	}
+}

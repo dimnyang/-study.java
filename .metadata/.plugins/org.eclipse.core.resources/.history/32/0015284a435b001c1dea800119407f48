@@ -1,0 +1,16 @@
+package structure;
+
+public class z {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     
+		B_Person p1 = new B_Person();
+		
+		p1.age = name = "최지윤";
+		System.out.println(p1.ahe);
+		p1.age = 20;
+		p1.pNum = "01022222222"
+	}
+
+}

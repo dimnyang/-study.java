@@ -1,0 +1,25 @@
+package polymorphism;
+
+public class Teacher extends Person {
+	
+	private String subject;
+	
+	public Teacher(String name, int age , String subject) {
+		super(name, age);
+		this.subject = subject;
+		
+	}
+	
+	public void showPerson() {
+		super.showPerson();
+		System.out.println("담당 과목은 : " + subject);
+
+}
+	
+	// 신분을 밝히는 코드를 Student 에만 (Person 에는 정의 x) 작성합니다.
+	
+	public void showTeacher() {
+		System.out.println("저는 선생입니다.");
+	}
+
+}

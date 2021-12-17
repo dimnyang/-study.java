@@ -1,0 +1,15 @@
+package zzzz;
+
+public class Cat extends Animal{
+	
+    public String food;
+    
+	 public void howl() {
+	    	System.out.println("냐옹");
+	    }
+	 
+	    public void getInfo() {
+	    	System.out.println("동물의 이름은 : " + name + "동물의 나이는: " + age + "동물의 색상은 " + color + "이고, 사료는 " + food + "이다.");
+	    }
+
+}

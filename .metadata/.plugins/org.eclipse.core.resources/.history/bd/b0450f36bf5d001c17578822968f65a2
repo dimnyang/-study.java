@@ -1,0 +1,33 @@
+package zzzzz;
+
+public class Parttimer {
+	
+	public boolean afternoon;
+	public int pay;
+	public String shopName;
+	public String name;
+	
+	public Parttimer(boolean a, int p, String s, String n) {
+		afternoon = a;
+		pay = p;
+		shopName =s;
+		name = n;
+		System.out.println("알바가 생성되었습니다.");
+		System.out.println("오후알바 " + afternoon);
+		System.out.println("가게명 : " + shopName);
+		System.out.println("알바생명 " + name);
+		
+	}
+	
+	public Parttimer(boolean a, String s, String n) {
+		afternoon = a;
+		pay = 8720;
+		shopName =s;
+		name = n;
+		System.out.println("알바가 생성되었습니다.");
+		System.out.println("오후알바 " + afternoon);
+		System.out.println("가게명 : " + shopName);
+		System.out.println("알바생명 " + name);
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Warrior {
+
+	public int hp;
+	public int mp;
+	public int de;
+	public int hp;
+	public int hp;
+}

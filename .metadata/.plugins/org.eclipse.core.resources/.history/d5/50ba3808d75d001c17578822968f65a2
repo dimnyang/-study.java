@@ -1,0 +1,17 @@
+package zzzzz;
+
+public class SuperSonicAirplane extends Airplane{
+	
+	
+	
+	public SuperSonicAirplane(int speed) {
+		   
+		super(speed);
+		System.out.println("초음속 비행기 속도는 " + speed);
+		
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package polymorphism;
+
+public class Chef extends Person{
+	
+	private boolean korean;
+	
+	public Chef(String name, int age, boolean korean) {
+		super(name, age);
+		this.korean = korean;
+	}
+
+}

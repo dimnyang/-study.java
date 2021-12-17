@@ -1,0 +1,27 @@
+package cat;
+
+import cat.cat;
+
+public class Structure03_190p {
+
+	 public static void getInfo(cat c) {
+		 
+		 System.out.println("이름 : < " + c.name + " >, 나이 : < " + c.age + ">, 색상 : <" + c.color + ">");
+	 }
+	public static void main(String[] args) {
+		
+		cat a = new cat();
+		
+		a.name = "만두";
+		a.age = 10;
+		a.color = "black";
+		
+		cat b = new cat();
+		
+		b.name = "두부";
+		b.age = 5;
+		b.color = "white";
+		
+		getInfo(a);
+		getInfo(b);
+	

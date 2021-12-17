@@ -1,0 +1,20 @@
+package overloding;
+
+public class Main02 {
+
+	public static void main(String[] args) {
+		// 알바생 둘을 만들어주세요
+		// 하나는 시급을 15000원으로 해주시고
+		// 다른하나는 입력없이 생성해주세요.
+		
+		parttimer p1 = new parttimer();
+		p1.afternoon();
+		p1.pay = 15000;
+		p1.shopName();
+		p1.name();
+		
+		
+
+	}
+
+}

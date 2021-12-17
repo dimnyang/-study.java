@@ -1,0 +1,12 @@
+package polymorphism;
+
+public class Main02 {
+
+	public static void main(String[] args) {
+		Person t1 = new Teacher("나천재" , 20, "국어");
+		Person c1 = new Chef("최지윤" , 20, true);
+		
+
+	}
+
+}

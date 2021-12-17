@@ -1,0 +1,19 @@
+package zzzzz;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Parttimer p1 = new Parttimer(true, 15000, "아웃백" , "최지윤" );
+		
+		
+		
+		
+		
+		Parttimer p2 = new Parttimer(false, "맥도날드" , "고정욱");
+		
+		
+		
+
+	}
+
+}

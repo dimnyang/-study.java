@@ -1,0 +1,14 @@
+package zzzzz;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Airplane a1 = new Airplane(300);
+		
+		
+
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package zzzz;
+
+public class Animal {
+	
+       public String name;
+	   public int age;
+	   public String color;
+   
+   
+
+
+    public void howl() {
+    	System.out.println("동물이 웁니다.");
+    }
+    
+    public void getInfo() {
+    	System.out.println("동물의 이름은 : " + name + "동물의 나이는: " + age + "동물의 색상은 " + color + "이다.");
+    }
+
+}

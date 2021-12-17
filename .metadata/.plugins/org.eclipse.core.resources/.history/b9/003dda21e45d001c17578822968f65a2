@@ -1,0 +1,12 @@
+package game.Inheritance;
+
+public class Main03 {
+
+	public static void main(String[] args) {
+		Magician m1 = new magician("최지윤");
+		
+		
+
+	}
+
+}

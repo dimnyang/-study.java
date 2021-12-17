@@ -1,0 +1,48 @@
+package zz;
+
+public class Warrior {
+	
+
+	private int hp;
+	private int mp;
+	private int lv;
+	private int atk;
+	private int def;
+	private int exp;
+	private String name;
+	
+
+	// 생성자 규칙 : 클래스명과 동일한 이름의 메서드를 만들되, 리턴 자료형이 없음
+	// 생성자를 만들어주시되, name만 사용자에게 입력받고, 나머지는\
+	// 체력 20, 마나 10, 레벨 1, 공격력 3, 방어력 0, 경험치 0 이 되도록 처리해주세요
+	
+	public Warrior(String n) {
+		hp = 20;
+		mp = 10;
+		lv = 1;
+		atk = 3;
+		def = 0;
+		exp = 0;
+		
+		System.out.println("전사생성 완료");
+		System.out.println("아이디는 " + name + "이고, 체력은 :" + hp +"이고, 마나는 " + mp + "이고, 레벨은 " + lv + " 이고, 공격력은 " + atk + 
+				"방어력은 " + def + "이고, 경험치는 " + exp + "이다.");
+		
+	}
+	
+	
+	
+	
+	//hunt 메서드를 만들어보겠습니다.
+	// 이 메서드는 실행시 사냥을 하는데 체력이 2깍이고 경험치가 10올라깁니다.
+	// 사냥 결과 체력이 x이 되었고, 누적경험치는 y입니다 라고 출력합니다.
+	// 생성자를 비롯한 메서드는 행동을 나타내고
+	// 이런 행동의 성공/실패 여부는 오로지 정보(변수)에 의해 결정되며
+	// 시도 자체에 대해서는 제한을 두지 않습니다.
+	
+	public void hunt() {
+		hp -= 2 ;
+		exp += 10;
+		System.out.println("사냥결과 체력이" + hp + "되었고, 누적경험치는" + exp + "입니다.");
+	}
+}

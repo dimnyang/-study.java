@@ -1,0 +1,21 @@
+package zz;
+
+public class Warrior {
+	
+	private int hp;
+	private int mp;
+	private int lv;
+	private int atk;
+	private int def;
+	private int exp;
+	private int name;
+	
+
+	public void hunt() {
+		hp -= 2;
+		exp += 10;
+		System.out.println("사냥결과 체력이 " + hp + "되었고, 누적경험치는 " + exp + "입니다.");
+	}
+	
+	
+}

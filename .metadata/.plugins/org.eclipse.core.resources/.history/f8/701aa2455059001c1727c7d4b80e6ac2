@@ -1,0 +1,13 @@
+package constructure;
+
+public class carr {
+
+	public static void main(String[] args) {
+		public int gas;// 연료량
+		public int speed;//속도
+		public String owner;// 차주
+
+
+	}
+
+}

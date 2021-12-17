@@ -1,0 +1,16 @@
+package zzzzz;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person p1 = new Person("최지윤", 20, 2000000, "체육학");
+		Person p2 = new Person("고정욱", 23, 15000000, "경제학");
+		
+		p1.getInfo();
+		p2.getInfo();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package structure;
+
+public class classMain01_196p {
+	// PersonClass의 메서드는 작성할 필요가 없습니다.
+			// 이미 PersonClass의 내부에 필요한 메서드를 다 작성해놧기 때문입니다.
+	
+	public static void main(String[] args) {
+		// 사람을 두 명 만들어 보세요.
+		
+		// 만든 사람 두 명의 정보를 콘솔에 찍어보세요.
+
+		
+		B_PersonClass p1 = new B_PersonClass();
+		p1.age = 10;
+		p1.glasses = true;
+		p1.name = "최지윤";
+		p1.pNum = "01011111111";
+		p1.uNum = 10;
+	
+		
+		B_PersonClass p2 = new B_PersonClass();
+		p1.age = 11;
+		p1.glasses = false;
+		p1.name = "최지윤";
+		p1.pNum = "01011112222";
+		p1.uNum = 1;
+		
+		p1.getInfo();
+		p2.getInfo();
+		
+		
+	}
+
+}

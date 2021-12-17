@@ -1,0 +1,27 @@
+package inheritance;
+
+public class Main02_254p {
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student();
+		s1.name = "최지인";
+		s1.age = 15;
+		s1.stuNum = 5;
+		
+		s1.getInfo();
+		s1.getStudentInfo();
+		
+		salayman s2 = new salayman();
+		
+		s2.name = "최지윤";
+		s2.age = 20;
+		s2.salary = 90000000;
+		
+		s2.getSalaryInfo();
+		
+		
+		
+	}
+
+}

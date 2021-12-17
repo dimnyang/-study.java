@@ -1,0 +1,13 @@
+package polymorphism;
+
+public class Main01 {
+
+	public static void main(String[] args) {
+		
+		Student s1 = new Student("최지윤" , 20, 1);
+		s1.showPerson();
+		
+
+	}
+
+}

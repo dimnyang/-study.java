@@ -1,0 +1,17 @@
+package game.Inheritance;
+
+public class Magicion extends Commoner {
+	
+	private int mDam;
+	
+	public Magicion(String name) {
+		super(name);
+		this.mDam = 3;
+		
+	}
+
+	public void getInfo() {
+		System.out.println("레벨 : " + lv + "체력 : " + hp + ",마나" + mp +
+				" ,마법데미지" + mDam + "이름 : " + name);
+	}
+}

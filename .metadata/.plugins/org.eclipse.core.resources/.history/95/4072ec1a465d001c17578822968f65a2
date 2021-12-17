@@ -1,0 +1,11 @@
+package game.Inheritance;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		 Commoner c1 = new Commoner();
+		 c1.name = "최지윤";
+
+	}
+
+}

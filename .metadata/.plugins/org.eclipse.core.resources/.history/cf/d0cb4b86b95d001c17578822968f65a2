@@ -1,0 +1,10 @@
+package zzzz;
+
+public class Cat extends Animal{
+	
+    public String food;
+    
+	 public void howl() {
+	    	System.out.println("냐옹");
+	    }
+}

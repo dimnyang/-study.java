@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class z {
+
+	public static void main(String[] args) {
+	
+	
+		Scanner scan = new Scanner(System.in);
+		System.out.println("한 변의 넓이를 입력해주세요.");
+		int i = scan.nextInt();
+		for (int j = 0; j < i; j++) {
+			for (int k = 0; k < i ; k++) {
+				System.out.print("*");
+			
+			} System.out.println();
+		}
+
+	}
+
+}

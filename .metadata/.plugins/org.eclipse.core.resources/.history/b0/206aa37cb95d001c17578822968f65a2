@@ -1,0 +1,11 @@
+package zzzz;
+
+public class Dog extends Animal {
+	
+	public String breed;
+
+	
+	 public void howl() {
+	    	System.out.println("멍멍");
+	    }
+}
