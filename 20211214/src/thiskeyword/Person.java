@@ -8,7 +8,7 @@ public class Person {
 	private int money;
 	private String major;
 	
-	public Person(String name, int age, int money, String majot) {
+	public Person(String name, int age, int money, String major) {
 		this.name = name;
 		this.age = age;
 		this.money = money;
@@ -17,7 +17,8 @@ public class Person {
   //이름 , 나이, 소지금액, 전공을 콘솔에 찍어주는 getInfo()를 작성해주세요.
 	
 	public void getInfo() {
-		System.out.println(this.name + age + money + major);
+		System.out.println(this.name +  this.age +  this.money +  this.major);
 		
 	}
+	
 }
