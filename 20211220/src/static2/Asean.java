@@ -33,6 +33,11 @@ public class Asean {
 		 System.out.println("출석" + check + " 중간고사 성적 : " + midTerm + " 기말고사 성적: " + finalTerm + " 발표 : " + presnetationScore );
 	   }
 	   
+	   // private static은 같은 static 영역에서 접근하도록 만들어야 합니다.
+	   
+	   public static void showPre() {
+		   System.out.println("Asean조의 발표점수는 : " + presnetationScore);
+	   }
    
 
 }
