@@ -10,9 +10,9 @@ public class Exception06 {
 		// 그러나 그것이 반드시 작동됨을 보장하지는 않는다
 		// object 자료형은 자바 모든 클래스의 부모 클래스 이다
 		
-		String str = "3";
-		object obj = str;
-		Integer integer = (Integer)obj;
+		//String str = "3";
+		//object obj = str;
+		//Integer integer = (Integer)obj;
 		
 		
 

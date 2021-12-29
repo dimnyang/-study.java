@@ -20,4 +20,3 @@ public class G_If02_93p {
 	}
 
 }
-}

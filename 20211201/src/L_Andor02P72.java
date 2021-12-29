@@ -12,4 +12,3 @@ public class L_Andor02P72 {
 	}
 
 }
-0

@@ -11,7 +11,7 @@ public class M_Assignment01P80 {
 		System.out.println(a);
 		a += 10;
 		System.out.println(a);
-	    a -= 5;0
+	    a -= 5;
 	    System.out.println(a);
 		a *= 3;
 	    System.out.println(a);

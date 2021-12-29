@@ -18,4 +18,3 @@ public class O_casting46p {
 	}
 
 }
-0

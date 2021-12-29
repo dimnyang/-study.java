@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ForQ5P118 {
+public class J_forQ5_118p {
 
 	public static void main(String[] args) {
 		// Scanner로 정수를 입력받게 해 주세요.

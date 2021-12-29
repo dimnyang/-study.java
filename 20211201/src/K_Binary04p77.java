@@ -14,4 +14,3 @@ public class K_Binary04p77 {
 	}
 
 }
-0

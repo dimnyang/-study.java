@@ -19,4 +19,3 @@ public class H_Binary63p {
 	}
 
 }
-0
